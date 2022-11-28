@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Ogg-Light;
+    src: url(/fonts/Ogg-Light.woff) format('woff');
+    font-weight: light;
+}
+@font-face {
+    font-family: Ogg-RegularItalic;
+    src: url(/fonts/Ogg-RegularItalic.woff) format('woff');
+    font-weight: italic;
+}
+@font-face {
+    font-family: TradeGothic;
+    src: url(/fonts/Trade\ Gothic\ LT\ Std\ Extended.otf) format('opentype');
+}
+
+body {
+    font-family: 'TradeGothic', sans-serif;
+    min-width: 300px;
+}
+
+.screen-3 h2 {
+    font-family: 'Ogg-Light', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+
+    margin-top: 20px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s3-green {
+    background: none;
+    color: rgba(113, 135, 14, 1);
+}
+
+#nature {
+font-style: italic;
+}
+
+.s3-p-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.screen-3 p {
+    font-family: 'TradeGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1d1d1d;
+
+    margin-top: 20px;
+}
+
+.s3-read-more-box {
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.screen-3 hr {
+    height: 2px;
+    border: none;
+    background: #D0A049;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.screen-3 a {
+    text-decoration: none;
+    font-family: 'TradeGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CD9A3D;
+}
+
+.s3-img-container {
+    margin-top: 26px;
+    max-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.s3-img-container span {
+    display: none;
+}
+
+#img1 {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 300px;
+}
+
+#img2 {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 200px;
+    position: absolute;
+    left: 132px;
+    top: 278px;
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .screen-3 {
+        display: flex;
+    }
+
+    .s3-text-container {
+        max-width: 546px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+
+    .screen-3 h2 {
+        margin-top: 0;
+
+        font-family: 'Ogg-Light', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 64px;
+        text-align: center;
+        color: #000000;
+    }
+
+    #nature {
+        font-style: italic;
+        font-weight: 600;
+    }
+
+
+    .screen-3 p {
+        font-family: 'TradeGothic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #1d1d1d;
+
+    }
+    
+    .s3-p-container {
+        box-sizing: border-box;
+        margin-left: 150px;
+        margin-right: auto;
+        margin-top: 60px;
+        max-width: 520px;
+        width: 100%;
+    }
+    
+    .s3-read-more-box {
+        width: 225px;
+        margin-left: 18px;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        margin-top: 75px;
+    }
+    
+    .s3-img-container {
+        margin-top: 46px;
+        max-width: 600px;
+        width: 100%;
+        position: relative;
+    }
+
+    .s3-img-container span {
+        display: block;
+        width: 212px;
+        margin: 75px auto 0 auto;
+        font-size: 16px;
+        line-height: 24px;
+        color: #71870E;
+        opacity: 0.8;
+
+    }
+    
+    #img1 {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 464px;
+    }
+    
+    #img2 {
+        box-sizing: border-box;
+        width: 70%;
+        min-width: 200px;
+        max-width: 260px;
+        position: absolute;
+        left: 343px;
+        top: 208px;
+    }
+
+}
+
+
