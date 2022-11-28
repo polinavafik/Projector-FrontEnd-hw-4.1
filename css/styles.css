@@ -126,11 +126,12 @@ font-style: italic;
     }
 
     .s3-text-container {
-        max-width: 546px;
+        max-width: 655px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 90px;
+        
     }
 
     .screen-3 h2 {
@@ -159,6 +160,7 @@ font-style: italic;
         line-height: 32px;
         color: #1d1d1d;
 
+
     }
     
     .s3-p-container {
@@ -168,6 +170,7 @@ font-style: italic;
         margin-top: 60px;
         max-width: 520px;
         width: 100%;
+        
     }
     
     .s3-read-more-box {
